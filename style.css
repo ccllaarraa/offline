@@ -1,0 +1,41 @@
+.tab {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  .tab button:hover {
+    text-decoration: underline;
+  }
+  .tab button.active {
+   text-decoration: underline;
+  }
+  
+    .content {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+
+  .tabcontent {
+    display: none;
+    padding: 6px 12px; 
+    border-top: none;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  }
+
+  
+  /* Go from zero to full opacity */
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }

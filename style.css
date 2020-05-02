@@ -4,6 +4,22 @@ body {
   background-color: black;
   font-size: 24px;
 }
+a {
+  text-decoration: none;
+}
+a {
+  color:inherit;
+  text-decoration: none;
+}
+a:hover {
+   color:grey; 
+   text-decoration:none; 
+   cursor:pointer;  
+}
+button:focus {outline:0;}
+.pt {
+  font-family: 'PT Mono', monospace;
+}
 .tab {
     display: flex;
     width: 100%;
@@ -41,8 +57,48 @@ body {
     border-top: none;
     animation: fadeEffect 1s; /* Fading effect takes 1 second */
   }
+  /*offline content styling */
+  .about--first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .about--first img{
+    max-width: 300px;
+  }
+  .about--first button {
+    text-decoration: none;
+    cursor: pointer;
+    background: black;
+    border-radius: 25px;
+    border: 1px solid yellow;
+    color: white;
+    font-size: 24px;
+    padding: 18px;
+    margin-top: 50px;
+  }
+  .about--right {
+    padding-left: 100px;
+  }
+  .about--right--div1 {
+    padding-left: 50px;
+  }
+  .about--quote {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 100px 0;
+  }
+  .about--bottom {
+    max-width: 900px;
+    padding: 20px 0;
+  }
 
-  
+
   /* Go from zero to full opacity */
   @keyframes fadeEffect {
     from {opacity: 0;}

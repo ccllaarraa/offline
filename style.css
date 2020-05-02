@@ -1,9 +1,17 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  background-color: black;
+  font-size: 24px;
+}
 .tab {
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
 .tab button {
+  font-size: 36px;
+    font-family: 'PT Mono', monospace;
     background-color: inherit;
     float: left;
     border: none;
@@ -11,6 +19,7 @@
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
+    color: white;
   }
   .tab button:hover {
     text-decoration: underline;

@@ -50,6 +50,19 @@ button:focus {outline:0;}
         justify-content: center;
     }
 
+  .anti-pro{
+    position: absolute;
+    z-index: -1;
+    left: 20%;
+    top: 5%;
+    font-family: 'PT Mono', monospace;
+    font-size: 2.5em;
+    text-align: center;
+    color: #272929;
+    max-width: 800px;
+    margin: auto;
+    padding: 100px 0;
+  }
 
   .tabcontent {
     display: none;

@@ -3,6 +3,7 @@ body {
   color: white;
   background-color: black;
   font-size: 24px;
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -12,7 +13,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-   color:grey; 
+   color: #272929;; 
    text-decoration:none; 
    cursor:pointer;  
 }
@@ -111,7 +112,44 @@ button:focus {outline:0;}
     padding: 20px 0;
   }
 
+/* offline page */
+.tab-offline {
+  position: fixed;
+  width:100%;
+}
+.offline-back  {
+  position: absolute;
+  font-size: 40px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.offline-arrow {
+  cursor: pointer;
+}
+.offline-center {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
 
+.showPdf {
+  display: none;
+}
+
+.reborn {
+  display: flex;
+  flex-direction: column;
+  background-color: #272929;
+}
+
+.reborn img {
+  height: 96vh;
+  padding: 20px;
+  justify-content: center;
+  margin: auto;
+}
   /* Go from zero to full opacity */
   @keyframes fadeEffect {
     from {opacity: 0;}

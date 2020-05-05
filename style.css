@@ -180,6 +180,10 @@ button:focus {outline:0;}
     .about--first {
       max-width: 800px;
     }
+    .about--first button {
+      font-size: 18px;
+      margin-left: 20px;
+    }
   }
   @media only screen and (max-width: 800px) {
     .about--first {
@@ -195,6 +199,9 @@ button:focus {outline:0;}
     }
     #endorse {
       padding-top: 50px;
+    }
+    .about--right {
+      padding-left: 50px;
     }
   }
   @media only screen and (max-width: 700px) {
@@ -213,6 +220,7 @@ button:focus {outline:0;}
   .about--first button {
     font-size: 18px;
     margin-top: 40px;
+    margin-left: 20px;
   }
   .about--right {
     padding-left: 0;

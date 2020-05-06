@@ -29,6 +29,7 @@ button:focus {outline:0;}
     justify-content: space-between;
 }
 .tab button {
+  width: 100%;
   font-size: 36px;
     font-family: 'PT Mono', monospace;
     background-color: inherit;

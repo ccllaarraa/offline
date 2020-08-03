@@ -121,7 +121,27 @@ button:focus {outline:0;}
     max-width: 900px;
     padding: 20px 0;
   }
-
+  .about-the-author span {
+    display: block;
+  }
+  #lauren {
+    margin-bottom: 150px;
+    max-width: 40vw;
+    visibility: hidden;
+    /* animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s; */
+  }
+  .about-the-author:hover + #lauren {
+    visibility: visible;
+     animation: fadeIn ease .5s;
+    -webkit-animation: fadeIn ease .5s; 
+    
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+ 
 /* offline page */
 .tab-offline {
   /* position: fixed; */
@@ -139,9 +159,9 @@ button:focus {outline:0;}
 .offline-center {
   display: flex;
   flex-direction: column;
-  margin: 0 200px;
+  margin: 50px 200px;
   justify-content: center;
-  height: 100vh;
+  height: auto;
   align-items: center;
 }
 
@@ -220,6 +240,10 @@ button:focus {outline:0;}
     }
     .about--right {
       padding-left: 50px;
+    }
+    #lauren {
+      visibility: visible;
+      max-width: 100%;
     }
   }
   @media only screen and (max-width: 700px) {

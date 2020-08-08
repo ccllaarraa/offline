@@ -1,4 +1,17 @@
+// //jquery here
+// $(document).ready(function(){
+//   $('.about-the-author')
+//   .on('mouseover', function (event) {
+//       $('#lauren').css("visibility", "visible").fadeIn('slow');
+//   })
+//   .on('mouseout', function (event) {
+//       $('#lauren').css("visibility", "hidden").fadeIn('slow');
+//   });
 
+// });
+
+
+//js here
 window.addEventListener("load", function load() {
 document.getElementById("defaultOpen").click();
 });

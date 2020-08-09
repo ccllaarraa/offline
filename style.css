@@ -11,11 +11,11 @@ a {
   text-decoration: none;
 }
 a {
-  color:inherit;
+  color:#6500ee;
   text-decoration: none;
 }
 a:hover {
-   color: #6500ee;
+   color: white;
    text-decoration:none; 
    cursor:pointer;  
 }
@@ -24,6 +24,14 @@ button:focus {outline:0;}
   font-family: 'PT Mono', monospace;
   border-radius: 50%;
 }
+
+#preorder{
+  transition: box-shadow .3s;
+}
+#preorder:hover {
+  box-shadow: -2px 0px 51px 0px rgba(187,196,157,1);
+}
+
 .tab {
     display: flex;
     width: 100%;
@@ -40,13 +48,13 @@ button:focus {outline:0;}
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
-    color: white;
+    color: #6500ee;
   }
   .tab button:hover {
-    color: #6500ee;
+    color: white;
   }
   .tab button.active {
-    color: #6500ee;
+    color: white;
   }
   
     .content {
@@ -90,6 +98,7 @@ button:focus {outline:0;}
   }
   .about--first img{
     max-width: 300px;
+    border-radius: 10%;
   }
   .about--first button {
     position: relative;
@@ -98,7 +107,7 @@ button:focus {outline:0;}
     cursor: pointer;
     background: black;
     border: 1px solid #6500ee;
-    border-radius:50%;
+    border-radius: 35px;
     color: white;
     font-size: 24px;
     margin-top: 50px;
@@ -125,7 +134,7 @@ button:focus {outline:0;}
     display: block;
   }
   #lauren {
-    margin-bottom: 150px;
+    margin-bottom: 50px;
     max-width: 40vw;
     visibility: hidden;
     /* animation: fadeIn ease 1s;
@@ -288,6 +297,10 @@ button:focus {outline:0;}
   text-align: center;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> demo
 .offline-center {
   display: flex;
   flex-direction: column;
@@ -297,7 +310,10 @@ button:focus {outline:0;}
   height: auto;
   align-items: center;
 }
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> demo
 >>>>>>> branch-name
 
 .anti-pro{

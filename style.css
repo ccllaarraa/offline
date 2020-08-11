@@ -296,8 +296,6 @@ button:focus {outline:0;}
   margin: 10px;
   text-align: center;
 }
-<<<<<<< HEAD
-=======
 .offline-center {
   display: flex;
   flex-direction: column;
@@ -307,7 +305,6 @@ button:focus {outline:0;}
   height: auto;
   align-items: center;
 }
->>>>>>> branch-name
 
 .anti-pro{
  

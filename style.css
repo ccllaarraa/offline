@@ -136,7 +136,7 @@ button:focus {outline:0;}
   #lauren {
     margin-bottom: 50px;
     max-width: 40vw;
-    visibility: hidden;
+    visibility: hidden; 
     /* animation: fadeIn ease 1s;
   -webkit-animation: fadeIn ease 1s; */
   }

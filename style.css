@@ -7,6 +7,11 @@ body {
   margin: 0;
 }
 
+@font-face {
+  font-family: "Space";
+  src: url("./assets/Space_mono/SpaceMono-Regular.ttf") format("truetype");
+ }
+
 a {
   text-decoration: none;
 }
@@ -21,7 +26,7 @@ a:hover {
 }
 button:focus {outline:0;}
 .pt {
-  font-family: 'PT Mono', monospace;
+  font-family: 'Space', 'PT Mono', monospace;
   border-radius: 50%;
 }
 
@@ -40,7 +45,7 @@ button:focus {outline:0;}
 .tab button {
   width: 100%;
   font-size: 36px;
-    font-family: 'PT Mono', monospace;
+    font-family: 'Space', 'PT Mono', monospace;
     background-color: inherit;
     float: left;
     border: none;
@@ -66,7 +71,7 @@ button:focus {outline:0;}
     .anti-pro{
       position: fixed;
       z-index: -1;
-      font-family: 'PT Mono', monospace;
+      font-family: 'Space', 'PT Mono', monospace;
       font-size: 0.8em;
       text-align: center;
       color: #272929;
